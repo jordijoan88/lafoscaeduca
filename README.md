@@ -1,2 +1,2 @@
 # lafoscaeduca
-repository for lafoscaeduca
+repository for lafoscaeduca.
