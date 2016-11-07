@@ -1,0 +1,66 @@
+html{
+	background-color: #000;
+}
+body{
+	background: url("../images/LOGO_FOSCA_FINAL.jpg") no-repeat 50% 0;
+	font-family: "Arial";
+	margin: 0 auto;
+	max-width: 960px;
+
+}
+h1{
+	color: #FFF;
+	text-indent: -1000;
+}
+div.title{
+	min-height: 250px;
+}
+p.comingsoon{
+	font-size: 28px;
+	color: #FFF;
+	text-align: center;
+}
+p.visitus{
+	font-size: 28px;
+	color: #FFF;
+	text-align: center;
+	line-height: 45px;
+}
+p.phone{
+	font-size: 20px;
+	color: #FFF;
+	line-height: 30px;
+	text-align: center;
+}
+i.facebook{
+	background: url("../images/facebook.png") no-repeat;
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 5px;
+}
+i.instagram{
+	background: url("../images/instagram.png") no-repeat;
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 10px;
+}
+i.whatsapp{
+	background: url("../images/whatsapp.png") no-repeat;
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 10px;
+}
+@media screen and (max-width: 480px) {
+	body{
+		background-size: contain;
+	}
+	div.title{
+		min-height: 190px;
+	}
+}
